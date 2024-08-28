@@ -7,16 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>zTC1</title>
     <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" sizes="192x192" href="http://yuntong.icu/tc1/images/android-desktop.png">
+    <!-- <link rel="icon" sizes="192x192" href="http://yuntong.icu/tc1/images/android-desktop.png"> -->
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Material Design Lite">
-    <link rel="apple-touch-icon-precomposed" href="http://yuntong.icu/tc1/images/ios-desktop.png">
+    <!-- <link rel="apple-touch-icon-precomposed" href="http://yuntong.icu/tc1/images/ios-desktop.png"> -->
     <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="http://yuntong.icu/tc1/images/touch/ms-touch-icon-144x144-precomposed.png">
+    <!-- <meta name="msapplication-TileImage" content="http://yuntong.icu/tc1/images/touch/ms-touch-icon-144x144-precomposed.png"> -->
     <meta name="msapplication-TileColor" content="#3372DF">
-    <link rel="shortcut icon" href="http://yuntong.icu/tc1/images/favicon.png">
+    <!-- <link rel="shortcut icon" href="http://yuntong.icu/tc1/images/favicon.png"> -->
     <link rel="stylesheet" href="assets/css_pack.css">
   </head>
   <body>
@@ -112,7 +112,7 @@
         <div class="mdl-grid demo-content">
 
 
-          <div class="page page1 demo-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
+          <div class="page page1 demo-cards mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
             <div class="demo-options mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--12-col-desktop">
               <div class="mdl-card__supporting-text">
 
@@ -127,7 +127,7 @@
                 <ul id="socket_ul" class="demo-list-control mdl-list">
                   <li class="mdl-list__item">
                     <span class="mdl-list__item-primary-content">
-                      <span class="lang" langKey="Socket">插座</span>-1
+                      <span class="lang" langKey="Socket">插座</span>-0
                     </span>
                     <span class="mdl-list__item-secondary-action">
                       <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="list-switch-1">
@@ -137,7 +137,7 @@
                   </li>
                   <li class="mdl-list__item">
                     <span class="mdl-list__item-primary-content">
-                      <span class="lang" langKey="Socket">插座</span>-2
+                      <span class="lang" langKey="Socket">插座</span>-1
                     </span>
                     <span class="mdl-list__item-secondary-action">
                       <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="list-switch-2">
@@ -147,7 +147,7 @@
                   </li>
                   <li class="mdl-list__item">
                     <span class="mdl-list__item-primary-content">
-                      <span class="lang" langKey="Socket">插座</span>-3
+                      <span class="lang" langKey="Socket">插座</span>-2
                     </span>
                     <span class="mdl-list__item-secondary-action">
                       <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="list-switch-3">
@@ -157,7 +157,7 @@
                   </li>
                   <li class="mdl-list__item">
                     <span class="mdl-list__item-primary-content">
-                      <span class="lang" langKey="Socket">插座</span>-4
+                      <span class="lang" langKey="Socket">插座</span>-3
                     </span>
                     <span class="mdl-list__item-secondary-action">
                       <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="list-switch-4">
@@ -167,7 +167,7 @@
                   </li>
                   <li class="mdl-list__item">
                     <span class="mdl-list__item-primary-content">
-                      <span class="lang" langKey="Socket">插座</span>-5
+                      <span class="lang" langKey="Socket">插座</span>-4
                     </span>
                     <span class="mdl-list__item-secondary-action">
                       <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="list-switch-5">
@@ -177,7 +177,7 @@
                   </li>
                   <li class="mdl-list__item">
                     <span class="mdl-list__item-primary-content">
-                      <span class="lang" langKey="Socket">插座</span>-6
+                      <span class="lang" langKey="Socket">插座</span>-5
                     </span>
                     <span class="mdl-list__item-secondary-action">
                       <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="list-switch-6">
@@ -191,15 +191,15 @@
             </div>
           </div>
 
-          <div id="ct-chart-par" class="page page1 mdl-card__supporting-text mdl-shadow--2dp mdl-cell mdl-cell--6-col"
-           style="height:315px;overflow-x:scroll;overflow-y:hidden;">
+          <div id="ct-chart-par" class="page page1 demo-cards mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing"
+           style="height:436px;overflow-x:scroll;overflow-y:hidden;">
             <table class="pw">
               <tr>
                 <td>P: <span id="p" class="success">0</span> W</td>
                 <td>W: <span id="w" class="error">0</span> kW·h</td>
               </tr>
             </table>
-            <div id="ct-chart" class="ct-chart ct-perfect-fourth" style="height:280px;margin-top:20px;"></div>
+            <div id="ct-chart" class="ct-chart ct-perfect-fourth" style="height:400px;margin-top:20px;"></div>
           </div>
 
           <div class="page page2 mdl-cell mdl-cell--5-col demo-card-square mdl-card mdl-shadow--2dp" style="overflow: unset;">
@@ -274,16 +274,17 @@
             </div>
           </div>
 
-          <div class="page page3 mdl-cell mdl-cell--5-col demo-card-event mdl-card mdl-shadow--2dp">
-            <table id="timed_task_tb" class="mdl-data-table mdl-js-data-table">
+          <div class="page page3 mdl-cell mdl-cell--12-col demo-card-event mdl-card mdl-shadow--2dp">
+            <table id="timed_task_tb" class="mdl-data-table task-table mdl-js-data-table">
               <tr>
+                <th>ID</th>
                 <th>时间</th>
                 <th>插座</th>
                 <th>开关</th>
                 <th>循环</th>
                 <th>操作</th>
               </tr>
-              <tr>
+              <!-- <tr>
                 <td>02-15 07:11</td>
                 <td>1</td>
                 <td>0</td>
@@ -296,11 +297,11 @@
                 <td>0</td>
                 <td>6</td>
                 <td><a>删除</a></td>
-              </tr>
+              </tr> -->
             </table>
           </div>
 
-          <div class="page page3 over-unset mdl-cell mdl-cell--5-col demo-card-square mdl-card mdl-shadow--2dp" style="z-index: unset;">
+          <div class="page page3 over-unset mdl-cell mdl-cell--12-col demo-card-square mdl-card mdl-shadow--2dp" style="z-index: unset;">
             <div class="mdl-card__title mdl-card--expand">
               <h2 class="mdl-card__title-text">添加任务</h2>
             </div>
@@ -329,12 +330,12 @@
                   <i class="mdl-icon-toggle__label material-icons"><svg><use xlink:href="#icon-keyboard_arrow_down" /></svg></i>
                   <label for="task_skt_idx" class="mdl-textfield__label">插座</label>
                   <ul for="task_skt_idx" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
-                      <li class="mdl-menu__item" data-val="1" data-selected='true'>插座-1</li>
-                      <li class="mdl-menu__item" data-val="2">插座-2</li>
-                      <li class="mdl-menu__item" data-val="3">插座-3</li>
-                      <li class="mdl-menu__item" data-val="4">插座-4</li>
-                      <li class="mdl-menu__item" data-val="5">插座-5</li>
-                      <li class="mdl-menu__item" data-val="6">插座-6</li>
+                      <li class="mdl-menu__item" data-val="1" data-selected='true'>插座-0</li>
+                      <li class="mdl-menu__item" data-val="2">插座-1</li>
+                      <li class="mdl-menu__item" data-val="3">插座-2</li>
+                      <li class="mdl-menu__item" data-val="4">插座-3</li>
+                      <li class="mdl-menu__item" data-val="5">插座-4</li>
+                      <li class="mdl-menu__item" data-val="6">插座-5</li>
                   </ul>
                 </div>
                 <div class="mdl-textfield mdl-js-textfield">
@@ -367,23 +368,23 @@
             <table class="mdl-data-table mdl-js-data-table">
               <tr>
                 <th>版本</th>
-                <th id="info_version">v1.0.33</th>
+                <th id="info_version">-</th>
               </tr>
               <tr>
                 <td>IP</td>
-                <td id="info_ip">192.168.33.222</td>
+                <td id="info_ip">-</td>
               </tr>
               <tr>
                 <td>子网掩码</td>
-                <td id="info_mask">255.255.255.0</td>
+                <td id="info_mask">-</td>
               </tr>
               <tr>
                 <td>网关</td>
-                <td id="info_gateway">192.168.33.1</td>
+                <td id="info_gateway">-</td>
               </tr>
               <tr>
                 <td>启动时间</td>
-                <td id="uptime">10:13:43</td>
+                <td id="uptime">-</td>
               </tr>
             </table>
             <div class="mdl-card__actions mdl-card--border">
@@ -401,7 +402,7 @@
             <div class="mdl-card__supporting-text">
             <form action="#">
               <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                <input class="mdl-textfield__input" type="text" id="ota_url" value="http://yuntong.icu/ztc1/tc1-v2.1.5-ota.bin">
+                <input class="mdl-textfield__input" type="text" id="ota_url" value="http://10.1.1.11:5244/d/volumes/mc1t/TC1%40MK3031%40moc.ota.bin">
                 <label class="mdl-textfield__label" for="ota_url">OTA 地址</label>
               </div>
             </form>
@@ -569,6 +570,7 @@ var LangConfig = {
   //主页
   Socket: {en: "Socket", cn: "插座"},
 }
+  var is_stop_power = false;
 function ChangeLanguage(lang) {
   if (lang == "jp") {
     ShowToast("申し訳ありませんが、日本語はありません。");
@@ -602,7 +604,9 @@ function Ajax(url, onsuccess, type, data) {
     type: type,
     data: data,
     success: function(re) {
-      onsuccess(re.replace(/'/g, '"'));
+      // console.log(re)
+      // if (re instanceof String )
+        onsuccess(re.replace(/'/g, '"'));
     },
     error: AjaxErr
   });
@@ -640,17 +644,84 @@ Date.prototype.Format = function(fmt) {
 }
 //DateTool-end
 
-var info_station_name;
-var info_wifi_password;
-var mqtt_addr;
-var mqtt_port;
-var mqtt_usr;
-var mqtt_pwd;
+    var info_station_name;
+    var info_wifi_password;
+    var mqtt_addr;
+    var mqtt_port;
+    var mqtt_usr;
+    var mqtt_pwd;
+function GetStatusInfo(){
+    HttpGet("/status", function (re) {
+    var status = JSON.parse(re);
+    var status_arr = status.sockets.split(",");
+    for (var i = 0; i < status_arr.length; i++) {
+        //checkboxs[i].checked = status_arr[i] == "1";
+        if (status_arr[i] == "1") {
+            switch_lables[i].MaterialSwitch.on();
+        } else {
+            switch_lables[i].MaterialSwitch.off();
+        }
+        }
 
-HttpGet("/status", function (re) {
-  var status = JSON.parse(re);
-  var status_arr = status.sockets.split(",");
-  for (var i = 0; i < status_arr.length; i++) {
+    if(status.mode == 1) {
+        $("#custom_station").click();
+        info_station_name = status.station_ssid;
+        info_wifi_password = status.station_pwd;
+    } else {
+        $("#custom_ap").click();
+        $("#custom_ssid")[0].parentElement.MaterialTextfield.change(status.ap_ssid);
+        info_wifi_password = status.ap_pwd;
+    }
+
+    mqtt_addr = status.mqtt_addr;
+    mqtt_port = status.mqtt_port;
+    mqtt_usr = status.mqtt_usr;
+    mqtt_pwd = status.mqtt_pwd;
+    $("#info_version").html(status.version);
+    $("#info_ip").html(status.ip);
+    $("#info_mask").html(status.mask);
+    $("#info_gateway").html(status.gateway);
+    $("#uptime").html(status.up_time);
+    });
+    $("#st-date").html((new Date()).Format("yyyy-MM-dd"));
+}
+
+//图表-start
+var ct_data = { series: [ [] ] };
+var ct_chart = new Chartist.Line('.ct-chart', ct_data, {showArea: true, axisY: {position: 'end'}});
+var power_idx = 0;
+var chart_wth = 0;
+var p = document.getElementById("p");
+var w = document.getElementById("w");
+function GetPowerRecord() {
+  HttpPost("/power", function (re) {
+    re = re.replace(/'/g, '"');
+    var power = JSON.parse(re);
+    power_idx = power.idx + 1;
+
+    var x = chart_par.scrollWidth - chart_par.offsetWidth - chart_par.scrollLeft;
+
+    power.powers.forEach(element => {
+      var curr_p = element/10;
+      p.innerHTML = curr_p.toFixed(2);
+      var len = ct_data.series[0].push(curr_p);
+      if (len > 1000) { //最多1000条数据
+        ct_data.series[0].shift();
+      }
+    });
+    chart_wth += power.powers.length;
+    $("#ct-chart").width(chart_wth * 10);
+    ct_chart.update(ct_data);
+    if (power.powers.length != 0 && x < 100) {
+      chart_par.scrollTo(chart_par.scrollWidth, 0);
+    }
+    // $("#uptime").html(power.up_time);
+
+    var w_v = (17.1 * power.p_count) / 1000 / 36000;
+    w.innerHTML = w_v.toFixed(2);
+
+    var status_arr = power.sockets.split(",");
+    for (var i = 0; i < status_arr.length; i++) {
       //checkboxs[i].checked = status_arr[i] == "1";
       if (status_arr[i] == "1") {
         switch_lables[i].MaterialSwitch.on();
@@ -659,28 +730,14 @@ HttpGet("/status", function (re) {
       }
     }
 
-  if(status.mode == 1) {
-    $("#custom_station").click();
-    info_station_name = status.station_ssid;
-    info_wifi_password = status.station_pwd;
-  } else {
-    $("#custom_ap").click();
-    $("#custom_ssid")[0].parentElement.MaterialTextfield.change(status.ap_ssid);
-    info_wifi_password = status.ap_pwd;
-  }
-
-  mqtt_addr = status.mqtt_addr;
-  mqtt_port = status.mqtt_port;
-  mqtt_usr = status.mqtt_usr;
-  mqtt_pwd = status.mqtt_pwd;
-  $("#info_version").html(status.version);
-  $("#info_ip").html(status.ip);
-  $("#info_mask").html(status.mask);
-  $("#info_gateway").html(status.gateway);
-  $("#uptime").html(status.up_time);
-});
-$("#st-date").html((new Date()).Format("yyyy-MM-dd"));
-
+     if (!is_stop_power) setTimeout(GetPowerRecord, 3000);
+  }, power_idx.toString());
+}
+$(document).ready(function(){
+  GetPowerRecord();
+})
+//图表-end
+  
 //Menu-start
 var chart_par = document.getElementById("ct-chart-par");
 chart_par.scrollTo(chart_par.scrollWidth, 0);
@@ -699,6 +756,13 @@ function ShowPage(id) {
   $(".mdl-navigation__link").removeClass("mdl-nav-active");
   $(".mdl-navigation__link:eq("+(id-1)+")").addClass("mdl-nav-active");
 
+  if (id != 1) {
+    is_stop_power = true;
+  } else {
+    is_stop_power = false;
+    GetPowerRecord();
+  }
+  console.log('stop power:', is_stop_power)
   if(id == 2) {
     Rescan();
     $("#custom_password")[0].parentElement.MaterialTextfield.change(info_wifi_password);
@@ -708,7 +772,20 @@ function ShowPage(id) {
     $("#mqtt_pwd")[0].parentElement.MaterialTextfield.change(mqtt_pwd);
   } else {
     window.clearTimeout(rescan_timer);
+  };
+ 
+  if (id == 3)
+     // 定时任务
+  {
+    GetTimedTask();
+  } else if (id == 4) {
+     // status
+    GetStatusInfo();
+  }else if (id == 6) {
+     // 日志
+    GetSysLog();
   }
+  
 }
 ShowPage(1);
 //Menu-end
@@ -718,6 +795,7 @@ var socket_ul = document.getElementById("socket_ul");
 var checkboxs = socket_ul.getElementsByClassName("mdl-switch__input");
 var switch_lables = socket_ul.getElementsByClassName("mdl-switch");
 $(".mdl-switch__input").on("click", function() {
+  if (this.id == "task_on") return;
   var sockets_st = "";
   for (var i = 0; i < checkboxs.length; i++) {
     sockets_st += (checkboxs[i].checked ? "1," : "0,");
@@ -836,57 +914,7 @@ $("#wifi_submit").on("click", function() {
 });
 //Config-end
 
-//图表-start
-var ct_data = { series: [ [] ] };
-var ct_chart = new Chartist.Line('.ct-chart', ct_data, {showArea: true, axisY: {position: 'end'}});
-var power_idx = 0;
-var chart_wth = 0;
-var p = document.getElementById("p");
-var w = document.getElementById("w");
-function GetPowerRecord() {
-  HttpPost("/power", function (re) {
-    re = re.replace(/'/g, '"');
-    var power = JSON.parse(re);
-    power_idx = power.idx + 1;
 
-    var x = chart_par.scrollWidth - chart_par.offsetWidth - chart_par.scrollLeft;
-
-    power.powers.forEach(element => {
-      var curr_p = element/10;
-      p.innerHTML = curr_p.toFixed(2);
-      var len = ct_data.series[0].push(curr_p);
-      if (len > 1000) { //最多1000条数据
-        ct_data.series[0].shift();
-      }
-    });
-    chart_wth += power.powers.length;
-    $("#ct-chart").width(chart_wth * 10);
-    ct_chart.update(ct_data);
-    if (power.powers.length != 0 && x < 100) {
-      chart_par.scrollTo(chart_par.scrollWidth, 0);
-    }
-    $("#uptime").html(power.up_time);
-
-    var w_v = (17.1 * power.p_count) / 1000 / 36000;
-    w.innerHTML = w_v.toFixed(2);
-
-    var status_arr = power.sockets.split(",");
-    for (var i = 0; i < status_arr.length; i++) {
-      //checkboxs[i].checked = status_arr[i] == "1";
-      if (status_arr[i] == "1") {
-        switch_lables[i].MaterialSwitch.on();
-      } else {
-        switch_lables[i].MaterialSwitch.off();
-      }
-    }
-
-    window.setTimeout(GetPowerRecord, 3000);
-  }, power_idx.toString());
-}
-$(document).ready(function(){
-  GetPowerRecord();
-})
-//图表-end
 
 //定时任务-start
 $("#task_weekday").on("change", function() {
@@ -896,17 +924,29 @@ $("#task_weekday").on("change", function() {
     $("#task_date")[0].hidden = false;
   }
 });
+
+const numberToChinese = {
+  0: '无',
+  1: '周一',
+  2: '周二',
+  3: '周三',
+  4: '周四',
+  5: '周五',
+  6: '周六',
+  7: '周七',
+  8: '每天'
+};
 function GetTimedTask() {
   HttpGet("/task", function (re) {
     var tb_html = "\
     <tr>\
+      <th>ID</th>\
       <th>时间</th>\
       <th>插座</th>\
       <th>开关</th>\
       <th>循环</th>\
       <th>操作</th>\
     </tr>";
-    console.log(re);
     var tasks = JSON.parse(re);
     if (tasks.length == 0) {
       tb_html += "<tr><td colspan='5'>没有定时任务</td></tr>";
@@ -914,17 +954,18 @@ function GetTimedTask() {
     for (var i = 0; i < tasks.length; i++) {
       tb_html += "\
       <tr>\
-        <td>" + tasks[i].prs_time + "</td>\
+        <td>" + tasks[i].id + "</td>\
+        <td>" + new Date(tasks[i].timestamp * 1000).Format("yy-MM-dd hh:mm") + "</td>\
         <td>" + tasks[i].socket_idx + "</td>\
-        <td>" + tasks[i].on + "</td>\
-        <td>" + tasks[i].weekday + "</td>\
-        <td><a href='javascript:DelTimedTask(" + tasks[i].timestamp + ");'>Delete</a></td>\
+        <td>" + (tasks[i].on == '0' ? '关' : '开') + "</td>\
+        <td>" + ((tasks[i].weekday >=0 && tasks[i].weekday <=8) ? numberToChinese[tasks[i].weekday] : tasks[i].weekday)  + "</td>\
+        <td><a href=\"#\" onclick=\"DelTimedTask("+ tasks[i].id +")\">删除</a></td>\
       </tr>";
     }
     document.getElementById("timed_task_tb").innerHTML = tb_html;
   });
 }
-GetTimedTask();
+// GetTimedTask();
 
 var task_date = document.getElementById("task_date");
 var task_time = document.getElementById("task_time");
@@ -935,7 +976,7 @@ task_time.value = (new Date()).Format("hh:mm:ss");
 function AddTimedTask() {
   var dat = task_date.value;
   var tim = task_time.value;
-  var idx = document.getElementById("task_skt_idx").value;
+  var idx = document.getElementById("task_skt_idx").value - 1;
   var  on = document.getElementById("task_on").checked;
   var wkd = $("input[name='task_weekday']")[0].value;
 
@@ -943,9 +984,9 @@ function AddTimedTask() {
   var prs_time = Math.round(new Date(datatime) / 1000);
   //prs_time = prs_time + parseInt(sec);
   on = on ? "1" : "0";
-  var cmd = prs_time + " " + idx + " " + on + " " + wkd;
-  if (cmd.length != 16) {
-    alert("CMD ERROR!");
+  var cmd = prs_time + '|' +  idx +  on +  wkd;
+  if (cmd.length != 14 || idx < 0 || idx >5 || on < 0  || on >1 || wkd <0 || wkd > 8) {
+    alert("CMD ERROR：" + cmd);
     return
   }
   HttpPost("/task", function (re) {
@@ -956,11 +997,11 @@ function AddTimedTask() {
     GetTimedTask();
   }, cmd);
 }
-function DelTimedTask(timestamp) {
-  HttpDel("/task/"+timestamp, function (re) {
+function DelTimedTask(taskinfo) {
+  HttpDel("/task/"+taskinfo, function (re) {
     ShowToast("Delete timed task OK!");
     GetTimedTask();
-  }, timestamp);
+  }, taskinfo);
 }
 //定时任务-end
 
@@ -997,7 +1038,7 @@ function GetSysLog() {
     log_div.scrollTo(0, log_div.scrollHeight);
   });
 }
-GetSysLog();
+// GetSysLog();
 //日志-end
 
 </script>
