@@ -9810,3 +9810,15 @@ svg {
 .task-table th:nth-child(6) {
   width: 15% !important;
 }
+
+.socket-list-secondary-action {
+  margin-bottom: -40px;
+  margin-top: -15px;
+  width:10%
+  
+}
+.socket-list-primary-content {
+  margin-bottom: -30px;
+  margin-top: -15px;
+  width:85%
+}
